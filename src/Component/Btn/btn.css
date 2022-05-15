@@ -1,0 +1,18 @@
+.todo__btn {
+	/* all: unset; */
+	display: flex;
+	align-items: center;
+	font-weight: 900;
+
+	background-color: aqua;
+	padding: 7px 10px;
+	border-radius: 10px;
+}
+.todo__btn:hover {
+	background-color: darkcyan;
+    /* color: white; */
+}
+.todo__btn svg {
+	width: 18px;
+	margin-right: 10px;
+}
