@@ -1,0 +1,25 @@
+.footer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 15px;
+    background-color: aqua;
+    margin: 0 auto;
+    border:  1px solid black;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    p{
+        font-weight: 900;
+    }
+    button {
+        margin-left: 20px;
+        padding: 5px 15px;
+        background-color: inherit;
+        border-radius: 10px;
+        &:hover {
+            background-color: darkcyan;
+        }
+    }
+}
